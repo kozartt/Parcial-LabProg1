@@ -1,9 +1,14 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ * 1- calcular el perimetro del triangulo
+   2- calcular la superficie del triangulo
+   3- calcular perimetro del cuadrado
+   4- calcular perimetro del cuadrado
+ */ 
 package dsadsa;
+
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -15,7 +20,17 @@ public class Dsadsa {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    int numeroSw;
+    
+    String cadenaNumeroSw;
+    
+    cadenaNumeroSw=JOptionPane.showInputDialog("MENU\n1-Calcular el perimetro del triangulo"
+                        + "\n2 - Calcular superficie del triangulo"
+                        + "\n3 - Calcular perimetro del cuadrado"
+                        + "\n4 - Calcular superficie del cuadrado"
+                        + "\n5 - Salir");
+                    
+    
     }
     
 }
