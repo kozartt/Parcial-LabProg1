@@ -4,8 +4,8 @@
  * 1- calcular el perimetro del triangulo
    2- calcular la superficie del triangulo
    3- calcular perimetro del cuadrado
-   5- calcular perimetro del cuadrado
-   4- calcular perimetro del pentagono
+   4- calcular perimetro del cuadrado
+   5- calcular perimetro del pentagono
  */ 
 package dsadsa;
 
