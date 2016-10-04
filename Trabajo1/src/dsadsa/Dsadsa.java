@@ -85,6 +85,30 @@ public class Dsadsa {
             }
             
             if (numeroSW == 3) {
+            int lado1;
+            int lado2;
+            int lado3;
+            int lado4;
+            int perimetro;
+            
+            String cadenaLado1;
+            String cadenaLado2;
+            String cadenaLado3;
+            String cadenaLado4;
+            
+            cadenaLado1 = JOptionPane.showInputDialog("Lado 1: ");
+            cadenaLado2 = JOptionPane.showInputDialog("Lado 2: ");
+            cadenaLado3 = JOptionPane.showInputDialog("Lado 3: ");
+            cadenaLado4 = JOptionPane.ShowInputdialog("Lado 4: ");
+            
+            lado1 = Integer.parseInt(cadenaLado1);
+            lado2 = Integer.parseInt(cadenaLado2);
+            lado3 = Integer.parseInt(cadenaLado3);
+            lado4 = Integer.parseInt(cadenalado4);
+            
+            perimetro = lado1 + lado2 + lado3 + lado3 + lado4; 
+            
+            JOptionPane.showMessageDialog(null,"Perímetro del cuadrado es: "+perimetro);
                 
             } else {
             }
