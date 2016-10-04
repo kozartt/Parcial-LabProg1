@@ -104,7 +104,7 @@ public class Dsadsa {
             lado1 = Integer.parseInt(cadenaLado1);
             lado2 = Integer.parseInt(cadenaLado2);
             lado3 = Integer.parseInt(cadenaLado3);
-            lado4 = Integer.parseInt(cadenalado4);
+            lado4 = Integer.parseInt(cadenaLado4);
             
             perimetro = lado1 + lado2 + lado3 + lado3 + lado4; 
             
