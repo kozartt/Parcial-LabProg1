@@ -90,7 +90,17 @@ public class Dsadsa {
             }
              
             if (numeroSW == 4) {
+                int lado;
+                int superficie;
                 
+                String cadenaLado;
+                
+                cadenaLado=JOptionPane.showInputDialog("Ingrese el valor de los lados:");
+                
+                lado=Integer.parseInt(cadenaLado);
+                
+                superficie=lado*lado;
+                JOptionPane.showMessageDialog(null, "La superficie del cuadrado es: "+superficie);
             } else {
             }
               
