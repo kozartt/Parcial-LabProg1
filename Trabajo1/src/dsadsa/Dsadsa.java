@@ -129,6 +129,38 @@ public class Dsadsa {
             }
               
             if (numeroSW == 5) {
+                       int lado1;
+        int lado2;
+        int lado3;
+        int lado4;
+        int lado5;
+        int perimetro;
+            
+        String cadenaLado1;
+        String cadenaLado2;
+        String cadenaLado3; 
+        String cadenaLado4; 
+        String cadenaLado5; 
+            
+        cadenaLado1=JOptionPane.showInputDialog("Lado 1: ");
+        lado1 = Integer.parseInt(cadenaLado1);
+        
+        cadenaLado2=JOptionPane.showInputDialog("Lado 2: ");
+        lado2 = Integer.parseInt(cadenaLado2);
+        
+        cadenaLado3=JOptionPane.showInputDialog("Lado 3: ");
+        lado3 = Integer.parseInt(cadenaLado3);
+        
+        cadenaLado4=JOptionPane.showInputDialog("Lado 4: ");
+        lado4 = Integer.parseInt(cadenaLado4);
+        
+        cadenaLado5=JOptionPane.showInputDialog("Lado 5: ");
+        lado5 = Integer.parseInt(cadenaLado5);
+        
+            
+        perimetro = lado1 + lado2 + lado3 + lado4 + lado5; 
+            
+        JOptionPane.showMessageDialog(null,"Perímetro: "+perimetro);
                 
             } else {
             }
