@@ -63,6 +63,23 @@ public class Dsadsa {
             }
             
             if (numeroSW == 2) {
+               
+            int base;
+            int altura;
+            int superficie;
+                
+            String cBase;
+            String cAltura;
+                
+            cBase = JOptionPane.showInputDialog("Ingrese el valor de la base: ");
+            base = Integer.parseInt(cBase);
+                
+            cAltura = JOptionPane.showInputDialog("Ingrese el valor de la altura: ");
+            altura = Integer.parseInt(cAltura);
+                
+            superficie = base * (altura/2);
+                
+            JOptionPane.showMessageDialog(null, "La superficie del triangulo es: "+ superficie);
                 
             } else {
             }
